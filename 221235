@@ -11,9 +11,9 @@ session_start();
 </head>
 <body>
 <?php 
-if($_POST["name"]=="admin" && $_POST["pass"]=="123"){
+إذا ($ _ POST ["name"] == "admin" && $ _POST ["pass"] == "٥٥")
 
-	$_SESSION['me']='YES';
+	$ _SESSION ['me'] = 'نعم' ؛
 	echo "you have login successfully";
 	echo "<br>";
 	echo '<a href="http://localhost/phptota/hello.php">'."Go to edit page";
